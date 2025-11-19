@@ -1,0 +1,78 @@
+This project explores the application of various statistical learning and machine learning techniques to detect fraudulent credit card transactions.
+Using a real-world dataset from Kaggle, the goal is to build and evaluate models that can identify fraud in highly imbalanced data settings.
+
+📊 Dataset
+
+The dataset comes from Kaggle and contains real transactions made by credit card holders over two days in September 2013, provided by Europay, MasterCard, and Visa.
+Key characteristics:
+
+284,807 total transactions
+
+492 fraudulent cases (highly imbalanced)
+
+Features are primarily anonymized PCA components (V1, V2, ..., V28)
+
+Includes Time, Amount, and a binary Class indicating fraud (1) or not (0)
+
+🎯 Project Objectives
+
+Explore and clean the transaction dataset
+
+Handle class imbalance using techniques such as:
+
+Oversampling (SMOTE)
+
+Undersampling
+
+Stratified splitting
+
+Apply multiple statistical learning and machine learning models, such as:
+
+Logistic Regression
+
+Decision Trees
+
+Random Forests
+
+Gradient Boosting
+
+Support Vector Machines
+
+Neural Networks
+
+Compare model performance using metrics appropriate for imbalanced classification:
+
+Precision, Recall, F1-score
+
+ROC–AUC
+
+Precision–Recall curves
+
+🛠️ Methods and Tools
+
+Python
+
+NumPy, Pandas
+
+Scikit-learn
+
+Matplotlib, Seaborn
+
+Imbalanced-learn (SMOTE, etc.)
+
+📈 Results
+
+The project evaluates how well each model detects fraudulent activity and identifies which techniques work best under severe class imbalance. Visualization and performance comparisons are included.
+
+📁 Dataset Source
+
+Kaggle: Credit Card Fraud Detection
+(Users must download the dataset directly from Kaggle due to licensing.)
+
+🚀 Future Improvements
+
+Hyperparameter optimization (Grid Search / Bayesian Optimization)
+
+Deep learning models (LSTMs or autoencoders)
+
+Deployment using Flask, FastAPI, or a dashboard for live prediction
